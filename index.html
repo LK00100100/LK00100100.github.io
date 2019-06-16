@@ -4,49 +4,64 @@
 
 <head>
 	<title>LK00100100</title>
-	<link rel="stylesheet" type="text/css" href="css/reset.css"> <!-- sets styles to blank -->
-	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link href='http://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+		integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+		integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+		crossorigin="anonymous"></script>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 
 <body>
 	<header>
-		<div class="container">
-			<a href='index.html'>
-				<h1>LK00100100</h1>
-			</a>
-			<nav>
-				<a href='blog/blog.html'>Blog</a>
-			</nav>
+		<div class="container-fluid">
+			<div class="container row">
+				<a href='index.html' class="col-sm-8">
+					<h1>LK00100100</h1>
+				</a>
+				<nav class="col-sm-4">
+					<a href='blog/blog.html'>Blog</a>
+				</nav>
+			</div>
 		</div>
 	</header>
 
 	<main>
-		<div class="container">
-			<h1>Hello There</h1>
-			<div class="content">
-				<img src="img/scarfaceL.jpg" alt="super thug" onmouseover="this.src='img/scarfaceR.jpg'"
-					onmouseout="this.src='img/scarfaceL.jpg'" />
-				<p>
-					Hello there, I am LK00100100. I'm just a simple programmer tending his code.
-					<br><br>
-					Life is like a giant cheese grater and I'm the friendly cheese wheel just trying to get to the nacho
-					stand.
-					<br><br>
-					"In this country, you got to get the money first. Then when you get the money, you get the power.
-					Then when you the power, then you get the woman."
-					-Scarface
-				</p>
+		<div class="container-fluid">
+			<div class="container row">
+				<div class="col-sm-12">
+					<h1>Hello There</h1>
+					<div class="content">
+						<img src="img/scarfaceL.jpg" alt="super thug" onmouseover="this.src='img/scarfaceR.jpg'"
+							onmouseout="this.src='img/scarfaceL.jpg'" />
+						<p>
+							Hello there, I am LK00100100. I'm just a simple programmer tending his code.
+							<br><br>
+							Life is like a giant cheese grater and I'm the friendly cheese wheel just trying to get to
+							the
+							nacho
+							stand.
+							<br><br>
+							"In this country, you got to get the money first. Then when you get the money, you get the
+							power.
+							Then when you the power, then you get the woman."
+							-Scarface
+						</p>
+					</div>
+				</div>
 			</div>
 		</div>
 	</main>
 
 	<footer>
-		<div class="container">
-			<div class="contact">
-				<h5>Contact</h5>
-				<p>lk00100100 @ gmail</p>
+		<div class="container-fluid">
+			<div class="container row">
+				<div class="contact col-sm-12">
+					<h5>Contact</h5>
+					<p>lk00100100 @ gmail</p>
+				</div>
 			</div>
 		</div>
 	</footer>
