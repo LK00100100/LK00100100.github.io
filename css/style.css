@@ -1,6 +1,6 @@
 
 h1, h2, h3, h4, p, ul{
-	font-family: "ubuntu", sans-serif;
+	font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
 }
 
 h2{
@@ -28,7 +28,7 @@ header nav {
 	font-size: 1.5em;
 	float: right;
 	margin-top : 35px;
-	font-family: "ubuntu", sans-serif;
+	font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
 }
 
 header nav a:link{
@@ -101,7 +101,7 @@ main p b {
 }
 
 footer .container {
-	font-family: "droid sans" , sans-serif;
+	font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
 	background: #222222;
 	color: #888888;
 	float: center;
