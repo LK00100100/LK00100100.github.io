@@ -31,6 +31,10 @@ header nav {
 	font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
 }
 
+header nav a{
+	padding: 10px;
+}
+
 header nav a:link{
 	color: white;
 }
