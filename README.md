@@ -1,4 +1,4 @@
 # LK00100100.github.io
 Personal Website
 
-Use npm's http-server to help you develop.
+Dev Notes: Use npm's http-server to help you develop. Use Ctrl + Shift + R for a hard refresh.
