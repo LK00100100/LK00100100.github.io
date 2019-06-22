@@ -4,25 +4,19 @@
 
 <head>
 	<title>LK00100100</title>
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-		integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-		integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-		crossorigin="anonymous"></script>
-	<link rel="stylesheet" type="text/css" href="/css/style.css">
+	<script src="https://code.jquery.com/jquery-3.3.1.js"
+		integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
 
 	<!-- add header/footer -->
-	<script
-    src="https://code.jquery.com/jquery-3.3.1.js"
-    integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
-    crossorigin="anonymous"></script>
 	<script>
 		$(function () {
+			$("#scripts").load("/scripts.html");
 			$("#header").load("/header.html");
 			$("#footer").load("/footer.html");
 		});
 	</script>
+
+	<div id="scripts"></div>
 </head>
 
 <body>
@@ -31,36 +25,33 @@
 	</header>
 
 	<main>
-		<div class="container-fluid">
-			<div class="container row">
-				<div class="col-sm-12">
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="col-sm-10">
 					<h1>Hello There</h1>
-					<div class="content">
-						<img src="img/scarfaceL.jpg" alt="super thug" onmouseover="this.src='img/scarfaceR.jpg'"
-							onmouseout="this.src='img/scarfaceL.jpg'" />
-						<p>
-							Hello there, I am LK00100100. I'm just a simple programmer tending his code.
-							<br><br>
-							Life is like a giant cheese grater and I'm the friendly cheese wheel just trying to get to
-							the
-							nacho
-							stand.
-							<br><br>
-							"In this country, you got to get the money first. Then when you get the money, you get the
-							power.
-							Then when you the power, then you get the woman."
-							-Scarface
-						</p>
-					</div>
+					<img class="img-fluid" src="img/scarfaceL.jpg" alt="super thug"
+						onmouseover="this.src='img/scarfaceR.jpg'" onmouseout="this.src='img/scarfaceL.jpg'" />
+					<p>
+						Hello there, I am LK00100100. I'm just a simple programmer tending his code.
+						<br><br>
+						Life is like a giant cheese grater and I'm the friendly cheese wheel just trying to get to
+						the
+						nacho
+						stand.
+						<br><br>
+						"In this country, you got to get the money first. Then when you get the money, you get the
+						power.
+						Then when you get the power, then you get the woman."
+						-Scarface
+					</p>
 				</div>
 			</div>
 		</div>
 	</main>
 
 	<footer>
-			<div id="footer"></div>
+		<div id="footer"></div>
 	</footer>
-
 </body>
 
 </html>

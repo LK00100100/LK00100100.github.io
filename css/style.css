@@ -1,38 +1,37 @@
 
+html{
+	font-size : 20px;
+}
+
 h1, h2, h3, h4, p, ul{
 	font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
 }
 
-h2{
-	font-size: 1.5em;
+#scripts{
+	display: none;
 }
 
-body{
-	background: #1a1a1a;
-	font-size: 100%;
-}
-
-header .container{
-	background: #222222;
+header {
+	background-color: #1a1a1a
 }
 
 header h1 {
-	font-size: 3.5em;
 	font-style: italic;
 	color: #888888;
 	float: left;
 	padding: 20px;
-}
-
-header nav {
-	font-size: 1.5em;
-	float: right;
-	margin-top : 35px;
-	font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+	width: 500px;
 }
 
 header nav a{
-	padding: 10px;
+	padding-top: 20px;
+	padding-left: 10px;
+	padding-bottom: 20px;
+	display: inline-block;
+}
+
+header h1 a:visited{
+	color: #888888;
 }
 
 header nav a:link{
@@ -43,25 +42,26 @@ header nav a:visited{
 	color: white;
 }
 
-.container {
-	margin: auto;
-	float: center;
+body{
+	background: #0e0d0d;
 }
 
 main .container{
+	color: #888888;
+}
+
+main .container .col-sm-10{
 	background: #333333;
 	color: #888888;
-	padding: 30px 0px 30px 0px;
+	overflow: auto;
 }
 
 main .container h1{
-	font-size: 2.5em;
 	margin-left: 20px;
 	margin-bottom: 20px;
 }
 
 main .container h2{
-	font-size: 2.0em;
 	margin-left: 20px;
 	margin-bottom: 20px;
 	margin-top: 10px;
@@ -76,7 +76,8 @@ main .container img{
 
 main .container p{
 	color: #888888;
-	padding: 0px 20px 0px 20px;
+	padding-left: 20px;
+	padding-right: 20px;
 }
 
 main .container p:after{
@@ -89,7 +90,8 @@ main .container .posts{
 }
 
 main .container ul.list-circle{
-	padding: 0px 20px 0px 40px;
+	padding-left: 40px;
+	padding-right: 20px;
 	list-style-type: circle;
 }
 
@@ -97,22 +99,17 @@ main .container a{
 	color: white;
 }
 
-
 main p b {
 	font-weight: bold;
 }
 
 footer .container {
 	font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
-	background: #222222;
 	color: #888888;
 	float: center;
 }
 
 footer .container .contact{
 	padding: 20px;
-}
-
-footer .container h5{
-	font-size: 1.5em;
+	background: #1a1a1a;
 }

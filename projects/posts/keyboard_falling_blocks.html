@@ -3,23 +3,19 @@
 
 <head>
 	<title>LK00100100</title>
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-		integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-		integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-		crossorigin="anonymous"></script>
-	<link rel="stylesheet" type="text/css" href="/css/style.css">
-
-	<!-- add header/footer -->
 	<script src="https://code.jquery.com/jquery-3.3.1.js"
 		integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+
+	<!-- add header/footer -->
 	<script>
 		$(function () {
+			$("#scripts").load("/scripts.html");
 			$("#header").load("/header.html");
 			$("#footer").load("/footer.html");
 		});
 	</script>
+
+	<div id="scripts"></div>
 </head>
 
 <body>
@@ -28,67 +24,67 @@
 	</header>
 
 	<main>
-		<div class="container-fluid">
-			<div class="container row">
-				<div class="col-sm-12">
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="col-sm-10">
 					<h1>Keyboard Falling Blocks</h1>
-					<div class="content">
-						<img src="https://lk00100100.github.io/KeyboardFallingBlocks/client/demo.gif">
-						<p>
-							6/16/2019
-							<br><br>
-							<a href="https://lk00100100.github.io/KeyboardFallingBlocks/client/index.html">Play it
-								here! (use chrome)(not available on mobile)</a>
-							<br><br>
-							This is basically a "keyboard Tetris." You play using 40-keys on your keyboard.
-							<br>
-							1st row does 0 rotations: Keys [1 through 0]<br>
-							2nd row does 1 rotations: Keys [q through p]<br>
-							3rd row does 2 rotations: Keys [a through ;]<br>
-							4th row does 3 rotations: Keys [z through /]<br>
-							<br>
-							1st column moves the piece to column 0: Keys [1 through z]<br>
-							2nd column moves the piece to column 1: Keys [2 through x]<br>
-							etc etc
-							<br>
-							Shift to hold keys. Enter to restart. Back to go back. Space to cancel any keys being
-							pressed-down.
-							<br><br>
-							In theory, you can play at the speed of thought and play much faster than what is possible.
-							The
-							bad thing is that the learning curve is steep and the amount of people who give up are
-							pretty
-							high. Most people don't even want to read the 2-page manual, which is 2 pages too many.
-							First players normally take 10 minutes to complete 40 lines (10 tetrises).
-							<br><br>
-							After creating this game, I posted it on the Tetris community. People really enjoyed playing
-							it.
-							Some have brought to my attention that similiar such games have been created such as the
-							video below.
-							Here's a game called Finesse...
+					<img src="https://lk00100100.github.io/KeyboardFallingBlocks/client/demo.gif">
+					<p>
+						6/16/2019
+						<br><br>
+						<a href="https://lk00100100.github.io/KeyboardFallingBlocks/client/index.html">Play it
+							here! (use chrome)(not available on mobile)</a>
+						<br><br>
+						This is basically a "keyboard Tetris." You play using 40-keys on your keyboard.
+						<br>
+						1st row does 0 rotations: Keys [1 through 0]<br>
+						2nd row does 1 rotations: Keys [q through p]<br>
+						3rd row does 2 rotations: Keys [a through ;]<br>
+						4th row does 3 rotations: Keys [z through /]<br>
+						<br>
+						1st column moves the piece to column 0: Keys [1 through z]<br>
+						2nd column moves the piece to column 1: Keys [2 through x]<br>
+						etc etc
+						<br>
+						Shift to hold keys. Enter to restart. Back to go back. Space to cancel any keys being
+						pressed-down.
+						<br><br>
+						In theory, you can play at the speed of thought and play much faster than what is possible.
+						The
+						bad thing is that the learning curve is steep and the amount of people who give up are
+						pretty
+						high. Most people don't even want to read the 2-page manual, which is 2 pages too many.
+						First players normally take 10 minutes to complete 40 lines (10 tetrises).
+						<br><br>
+						After creating this game, I posted it on the Tetris community. People really enjoyed playing
+						it.
+						Some have brought to my attention that similiar such games have been created such as the
+						video below.
+						Here's a game called Finesse...
+						<div class="embed-responsive embed-responsive-16by9">
 							<iframe width="560" height="315" src="https://www.youtube.com/embed/TGW4j7LRBJk"
 								frameborder="0"
 								allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
 								allowfullscreen></iframe>
-							<br>
-							<a href="https://sites.google.com/site/xaelous/finesse">Link to Owner's Finesse game</a>
+						</div>
+						<br>
+						<a href="https://sites.google.com/site/xaelous/finesse">Link to Owner's Finesse game</a>
 
-							<br><br>
-							My game was coded with outdated javascript so you'll see a lot of "vars," global variables,
-							and other ugly stuff. As of this, writing (mid 2019), the best options are ECMAScript2015
-							(ES6), Babel
-							(like a future version of JS), or Typescript (Microsoft's flavor of JS).
-							<br><br>
-							What did I learn from this? Most people don't like reading manuals. Most people don't like
-							installing
-							stuff and would rather click a link. Most people don't like huge learning curves.
-							<br><br>
-							Here's the code. Just don't try to make any money off of it or the Tetris folks will
-							probably sue you.
-							<br>
-							<a href="https://github.com/LK00100100/KeyboardFallingBlocks">Github here</a>
-						</p>
-					</div>
+						<br><br>
+						My game was coded with outdated javascript so you'll see a lot of "vars," global variables,
+						and other ugly stuff. As of this, writing (mid 2019), the best options are ECMAScript2015
+						(ES6), Babel
+						(like a future version of JS), or Typescript (Microsoft's flavor of JS).
+						<br><br>
+						What did I learn from this? Most people don't like reading manuals. Most people don't like
+						installing
+						stuff and would rather click a link. Most people don't like huge learning curves.
+						<br><br>
+						Here's the code. Just don't try to make any money off of it or the Tetris folks will
+						probably sue you.
+						<br>
+						<a href="https://github.com/LK00100100/KeyboardFallingBlocks">Github here</a>
+					</p>
 				</div>
 			</div>
 		</div>
