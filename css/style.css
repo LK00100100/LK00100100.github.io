@@ -27,7 +27,7 @@ header nav a{
 	padding-top: 20px;
 	padding-left: 10px;
 	padding-bottom: 20px;
-	display: inline-block;
+	float: right;
 }
 
 header h1 a:visited{
@@ -104,7 +104,6 @@ main p b {
 }
 
 footer .container {
-	font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
 	color: #888888;
 	float: center;
 }
