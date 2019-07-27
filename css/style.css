@@ -1,13 +1,12 @@
-
-html{
-	font-size : 20px;
+html {
+	font-size: 20px;
 }
 
-h1, h2, h3, h4, p, ul{
-	font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+h1, h2, h3, h4, p, ul {
+	font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
 }
 
-#scripts{
+#scripts {
 	display: none;
 }
 
@@ -21,81 +20,83 @@ header h1 {
 	float: left;
 	padding: 20px;
 	width: 500px;
+	font-size: 0.9em;
 }
 
-header nav a{
+header nav a {
 	padding-top: 20px;
 	padding-left: 10px;
 	padding-bottom: 20px;
 	float: right;
 }
 
-header h1 a:visited{
+header h1 a {
 	color: #888888;
 }
 
-header nav a:link{
+header nav a:link {
 	color: white;
 }
 
-header nav a:visited{
+header nav a:visited {
 	color: white;
 }
 
-body{
+body {
 	background: #0e0d0d;
 }
 
-main .container{
+main .container {
 	color: #888888;
 }
 
-main .container .col-sm-10{
+main .container .col-sm-10 {
 	background: #333333;
 	color: #888888;
 	overflow: auto;
 }
 
-main .container h1{
+main .container h1 {
 	margin-left: 20px;
 	margin-bottom: 20px;
+	margin-top: 20px;
 }
 
-main .container h2{
+main .container h2 {
 	margin-left: 20px;
 	margin-bottom: 20px;
 	margin-top: 10px;
 }
 
-main .container img{
+main .container img {
 	float: left;
 	padding-left: 20px;
 	padding-right: 20px;
 	max-width: 300px;
 }
 
-main .container p{
+main .container p {
 	color: #888888;
 	padding-left: 20px;
 	padding-right: 20px;
 }
 
-main .container p:after{
-	content:"\A";
+main .container p:after {
+	content: "\A";
 	white-space: pre;
 }
 
-main .container .posts{
+main .container .posts {
 	padding: 20px;
 }
 
-main .container ul.list-circle{
+main .container ul.list-circle {
 	padding-left: 40px;
 	padding-right: 20px;
 	list-style-type: circle;
 }
 
-main .container a{
+main .container a {
 	color: white;
 }
 
@@ -108,7 +109,7 @@ footer .container {
 	float: center;
 }
 
-footer .container .contact{
+footer .container .contact {
 	padding: 20px;
 	background: #1a1a1a;
 }
