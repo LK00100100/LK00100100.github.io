@@ -1,0 +1,84 @@
+<!doctype html>
+<html>
+
+<head>
+	<!-- prevent white flash-->
+	<style>
+		body {
+			background-color: black;
+		}
+
+		.smallproj {
+			display: inline-block;
+			margin-bottom: 20px;
+		}
+	</style>
+
+	<title>LK00100100</title>
+	<script src="https://code.jquery.com/jquery-3.3.1.js"
+		integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+
+	<!-- add header/footer -->
+	<script>
+		$(function () {
+			$("#scripts").load("/scripts.html");
+			$("#header").load("/header.html");
+			$("#footer").load("/footer.html");
+		});
+	</script>
+
+	<div id="scripts"></div>
+</head>
+
+<body>
+	<header>
+		<div id="header"></div>
+	</header>
+
+	<main>
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="col-sm-10">
+					<h1>Small Random Projects</h1>
+					<p>
+						5/29/2020
+					</p>
+					<br>
+					<div class="smallproj">
+						<h2>Peg Soltaire</h2>
+						<img src="../img/peg-solitaire.png">
+						This game requires you to get rid of all the pegs. Click a peg and jump over
+						another peg horizontally or vertically. The jumped over peg gets removed. Dragging
+						is not supported. Clicking only.
+						<a href="https://lk00100100.github.io/peg-solitaire/">(Github)</a>
+						<a href="https://github.com/LK00100100/peg-solitaire">(Link)</a>
+					</div>
+					<div class="smallproj">
+						<h2>Monte Carlo Pi Simulation</h2>
+						<img
+							src="https://raw.githubusercontent.com/LK00100100/blum-monte-carlo-pi/master/pi-sample.PNG">
+						This estimates the value of pi by generating a lot of random points and then using some basic 
+						math and statistics.
+						<a href="https://github.com/LK00100100/blum-monte-carlo-pi">(Github)</a>
+						<a href="https://lk00100100.github.io/blum-monte-carlo-pi/">(Link)</a>
+					</div>
+					<div class="smallproj">
+						<h2>Monte Carlo Coin Toss Simulation</h2>
+						<img
+							src="https://raw.githubusercontent.com/LK00100100/coin-toss-simulation/master/coin-toss-sim.png">
+						This is a Monte Carlo gambling simulation. It demonstrates how much money you will
+						have after you flip a coin a ton of times with a slightly negative payout.
+						<a href="https://github.com/LK00100100/coin-toss-simulation">(Github)</a>
+						<a href="https://lk00100100.github.io/coin-toss-simulation/">(Link)</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</main>
+
+	<footer>
+		<div id="footer"></div>
+	</footer>
+</body>
+
+</html>
