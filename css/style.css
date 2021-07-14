@@ -1,3 +1,5 @@
+/* universal site styling */
+
 html {
 	font-size: 20px;
 }
@@ -42,8 +44,10 @@ header nav a:visited {
 	color: white;
 }
 
+/* body stuff */
+
 body {
-	background: #0e0d0d;
+	background-image: url("/img/site-background.jpg");
 }
 
 main .container {
@@ -103,6 +107,8 @@ main .container a {
 main p b {
 	font-weight: bold;
 }
+
+/* foot stuff ( ͡° ͜ʖ ͡°) */
 
 footer .container {
 	color: #888888;
