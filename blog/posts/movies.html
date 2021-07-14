@@ -8,8 +8,18 @@
 			background-color: black;
 		}
 
-		.movie-rec {
+		.row {
 			margin-bottom: 20px;
+		}
+
+		.movie-rec {
+			padding-top: 20px;
+			padding-left: 20px;
+			padding-right: 20px;
+
+			min-height: 100%;
+
+			background-color: #333333;
 		}
 	</style>
 
@@ -29,12 +39,6 @@
 
 	<div id="scripts"></div>
 
-	<style>
-		.movie-rec {
-			padding-left: 20px;
-			padding-right: 20px;
-		}
-	</style>
 </head>
 
 <body>
@@ -44,20 +48,27 @@
 
 	<main>
 		<div class="container">
+
 			<div class="row justify-content-center">
-				<div class="col-sm-10">
-					<h1>Recommended Movies</h1>
-					<p>
-						First posted: 4/16/2020
-						<br><br>
-						I enjoy movies. Who doesn't? Here are some of my recommendations. I can't give away
-						too much information without spoiling stuff, so you'll have to trust me and watch these.
-						These are written in no particular order.
-						<br><br>
-						Or if there's nothing on here you like, check out this IMDB top 250 list.
-						<a href="https://www.imdb.com/chart/top/">(link)</a>
-					</p>
-					<br>
+				<div class="col-md-10">
+					<div class="movie-rec">
+						<h1>Recommended Movies</h1>
+						<p>
+							First posted: 4/16/2020
+							<br><br>
+							I enjoy movies. Who doesn't? Here are some of my recommendations. I can't give away
+							too much information without spoiling stuff, so you'll have to trust me and watch these.
+							These are written in no particular order.
+							<br><br>
+							Or if there's nothing on here you like, check out this IMDB top 250 list.
+							<a href="https://www.imdb.com/chart/top/">(link)</a>
+						</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="row justify-content-center">
+				<div class="col-md-5">
 					<div class="movie-rec">
 						<h3>The Shawshank Redemption</h3>
 						<a href="https://www.imdb.com/title/tt0111161/">(imdb)</a>
@@ -73,6 +84,8 @@
 								allowfullscreen></iframe>
 						</div>
 					</div>
+				</div>
+				<div class="col-md-5">
 					<div class="movie-rec">
 						<h3>Rambo 4</h3>
 						<a href="https://www.imdb.com/title/tt0462499/">(imdb)</a>
@@ -89,6 +102,11 @@
 								allowfullscreen></iframe>
 						</div>
 					</div>
+				</div>
+			</div>
+
+			<div class="row justify-content-center">
+				<div class="col-md-5">
 					<div class="movie-rec">
 						<h3>The Last Samurai</h3>
 						<a href="https://www.imdb.com/title/tt0325710/">(imdb)</a>
@@ -104,6 +122,8 @@
 								allowfullscreen></iframe>
 						</div>
 					</div>
+				</div>
+				<div class="col-md-5">
 					<div class="movie-rec">
 						<h3>Gladiator</h3>
 						<a href="https://www.imdb.com/title/tt0172495/">(imdb)</a>
@@ -118,6 +138,11 @@
 								allowfullscreen></iframe>
 						</div>
 					</div>
+				</div>
+			</div>
+
+			<div class="row justify-content-center">
+				<div class="col-md-5">
 					<div class="movie-rec">
 						<h3>Justice League: The Flashpoint Paradox</h3>
 						<a href="https://www.imdb.com/title/tt2820466/">(imdb)</a>
@@ -134,6 +159,8 @@
 								allowfullscreen></iframe>
 						</div>
 					</div>
+				</div>
+				<div class="col-md-5">
 					<div class="movie-rec">
 						<h3>The Dark Knight</h3>
 						<a href="https://www.imdb.com/title/tt0468569/">(imdb)</a>
@@ -151,6 +178,18 @@
 								allowfullscreen></iframe>
 						</div>
 					</div>
+				</div>
+			</div>
+
+			<div class="row justify-content-center">
+				<div class="col-md-5">
+				</div>
+				<div class="col-md-5">
+				</div>
+			</div>
+
+			<div class="row justify-content-center">
+				<div class="col-md-5">
 					<div class="movie-rec">
 						<h3>Unbreakable</h3>
 						<a href="https://www.imdb.com/title/tt0217869/">(imdb)</a>
@@ -167,6 +206,8 @@
 								allowfullscreen></iframe>
 						</div>
 					</div>
+				</div>
+				<div class="col-md-5">
 					<div class="movie-rec">
 						<h3>Batman: Dark Knight Returns Part 1 and 2</h3>
 						<a href="https://www.imdb.com/title/tt2313197/">(imdb)</a>
@@ -181,21 +222,11 @@
 								allowfullscreen></iframe>
 						</div>
 					</div>
-					<div class="movie-rec">
-						<h3>Parasite</h3>
-						<a href="https://www.imdb.com/title/tt6751668/">(imdb)</a>
-						<p>
-							The first international film to win "Best Picture" at the Academy Awards. A humorous,
-							and very well written story about a family trying to move up in the socioeconomic ladder.
-							A South-Korean film.
-						</p>
-						<div class="embed-responsive embed-responsive-16by9">
-							<iframe width="560" height="315" src="https://www.youtube.com/embed/HSyvYSsFLCE"
-								frameborder="0"
-								allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-								allowfullscreen></iframe>
-						</div>
-					</div>
+				</div>
+			</div>
+
+			<div class="row justify-content-center">
+				<div class="col-md-5">
 					<div class="movie-rec">
 						<h3>The Matrix</h3>
 						<a href="https://www.imdb.com/title/tt0133093/">(imdb)</a>
@@ -213,6 +244,8 @@
 								allowfullscreen></iframe>
 						</div>
 					</div>
+				</div>
+				<div class="col-md-5">
 					<div class="movie-rec">
 						<h3>Inception</h3>
 						<a href="https://www.imdb.com/title/tt1375666/">(imdb)</a>
@@ -227,6 +260,11 @@
 								allowfullscreen></iframe>
 						</div>
 					</div>
+				</div>
+			</div>
+
+			<div class="row justify-content-center">
+				<div class="col-md-5">
 					<div class="movie-rec">
 						<h3>X-Men: Days of Future Past</h3>
 						<a href="https://www.imdb.com/title/tt1877832/">(imdb)</a>
@@ -241,6 +279,8 @@
 								allowfullscreen></iframe>
 						</div>
 					</div>
+				</div>
+				<div class="col-md-5">
 					<div class="movie-rec">
 						<h3>Terminator 2: Judgment Day</h3>
 						<a href="https://www.imdb.com/title/tt0103064/">(imdb)</a>
@@ -256,6 +296,11 @@
 								allowfullscreen></iframe>
 						</div>
 					</div>
+				</div>
+			</div>
+
+			<div class="row justify-content-center">
+				<div class="col-md-5">
 					<div class="movie-rec">
 						<h3>Gone Girl</h3>
 						<a href="https://www.imdb.com/title/tt2267998/">(imdb)</a>
@@ -269,6 +314,8 @@
 								allowfullscreen></iframe>
 						</div>
 					</div>
+				</div>
+				<div class="col-md-5">
 					<div class="movie-rec">
 						<h3>Scarface</h3>
 						<a href="https://www.imdb.com/title/tt0086250/">(imdb)</a>
@@ -283,6 +330,11 @@
 								allowfullscreen></iframe>
 						</div>
 					</div>
+				</div>
+			</div>
+
+			<div class="row justify-content-center">
+				<div class="col-md-5">
 					<div class="movie-rec">
 						<h3>Full Metal Jacket</h3>
 						<a href="https://www.imdb.com/title/tt0093058/">(imdb)</a>
@@ -297,6 +349,8 @@
 								allowfullscreen></iframe>
 						</div>
 					</div>
+				</div>
+				<div class="col-md-5">
 					<div class="movie-rec">
 						<h3>Oldboy (2003)</h3>
 						<a href="https://www.imdb.com/title/tt0364569/">(imdb)</a>
@@ -311,6 +365,11 @@
 								allowfullscreen></iframe>
 						</div>
 					</div>
+				</div>
+			</div>
+
+			<div class="row justify-content-center">
+				<div class="col-md-5">
 					<div class="movie-rec">
 						<h3>Ferris Bueller's Day Off</h3>
 						<a href="https://www.imdb.com/title/tt0091042/">(imdb)</a>
@@ -324,6 +383,8 @@
 								allowfullscreen></iframe>
 						</div>
 					</div>
+				</div>
+				<div class="col-md-5">
 					<div class="movie-rec">
 						<h3>Hero</h3>
 						<a href="https://www.imdb.com/title/tt0299977/">(imdb)</a>
@@ -338,19 +399,11 @@
 								allowfullscreen></iframe>
 						</div>
 					</div>
-					<div class="movie-rec">
-						<h3>The Truman Show</h3>
-						<a href="https://www.imdb.com/title/tt0120382/">(imdb)</a>
-						<p>
-							An man's life is a global reality show except he doesn't know it.
-						</p>
-						<div class="embed-responsive embed-responsive-16by9">
-							<iframe width="560" height="315" src="https://www.youtube.com/embed/z9lBvg5clr0"
-								frameborder="0"
-								allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-								allowfullscreen></iframe>
-						</div>
-					</div>
+				</div>
+			</div>
+
+			<div class="row justify-content-center">
+				<div class="col-md-5">
 					<div class="movie-rec">
 						<h3>RoboCop (1987)</h3>
 						<a href="https://www.imdb.com/title/tt0093870/">(imdb)</a>
@@ -368,6 +421,8 @@
 								allowfullscreen></iframe>
 						</div>
 					</div>
+				</div>
+				<div class="col-md-5">
 					<div class="movie-rec">
 						<h3>Our RoboCop Remake</h3>
 						<a href="https://www.imdb.com/title/tt3528906/">(imdb)</a>
@@ -382,6 +437,11 @@
 								allowfullscreen></iframe>
 						</div>
 					</div>
+				</div>
+			</div>
+
+			<div class="row justify-content-center">
+				<div class="col-md-5">
 					<div class="movie-rec">
 						<h3>Beasts of No Nation</h3>
 						<a href="https://www.imdb.com/title/tt1365050/">(imdb)</a>
@@ -396,6 +456,8 @@
 						</div>
 						<br>
 					</div>
+				</div>
+				<div class="col-md-5">
 					<div class="movie-rec">
 						<h3>Enemy At The Gates</h3>
 						<a href="https://www.imdb.com/title/tt0215750/">(imdb)</a>
@@ -410,6 +472,11 @@
 						</div>
 						<br>
 					</div>
+				</div>
+			</div>
+
+			<div class="row justify-content-center">
+				<div class="col-md-5">
 					<div class="movie-rec">
 						<h3>Rush Hour</h3>
 						<a href="https://www.imdb.com/title/tt0120812/">(imdb)</a>
@@ -424,6 +491,8 @@
 						</div>
 						<br>
 					</div>
+				</div>
+				<div class="col-md-5">
 					<div class="movie-rec">
 						<h3>Forrest Gump</h3>
 						<a href="https://www.imdb.com/title/tt0109830/">(imdb)</a>
@@ -438,6 +507,11 @@
 						</div>
 						<br>
 					</div>
+				</div>
+			</div>
+
+			<div class="row justify-content-center">
+				<div class="col-md-5">
 					<div class="movie-rec">
 						<h3>The Prestige</h3>
 						<a href="https://www.imdb.com/title/tt0482571/">(imdb)</a>
@@ -452,6 +526,8 @@
 						</div>
 						<br>
 					</div>
+				</div>
+				<div class="col-md-5">
 					<div class="movie-rec">
 						<h3>Death Wish</h3>
 						<a href="https://www.imdb.com/title/tt0071402/">(imdb)</a>
@@ -469,7 +545,8 @@
 					</div>
 				</div>
 			</div>
-		</div>
+
+		</div> <!-- container end -->
 	</main>
 
 	<footer>
